@@ -24,6 +24,7 @@
 #include <Mutex.h>
 
 extern "C" {
+    #define __STDC_CONSTANT_MACROS
     #include "ffmpeg_mediametadataretriever.h"
 }
 
